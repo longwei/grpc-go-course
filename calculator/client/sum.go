@@ -19,5 +19,5 @@ func doSum(c pb.CalculatorServiceClient) {
 		log.Fatal("Could not sum %v\n", err)
 	}
 
-	log.Printf("response from server: %s\n", res.Result)
+	log.Printf("response from server: Sum = %d\n", res.Result)
 }
